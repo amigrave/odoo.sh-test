@@ -2,6 +2,10 @@
 from odoo import http
 
 class Odouche(http.Controller):
+    @http.route('/test', auth='public')
+    def index(self, **kw):
+        return "Tu peux pas test"
+
     @http.route('/odouche/odouche/', auth='public')
     def index(self, **kw):
         return "Hello, world"
