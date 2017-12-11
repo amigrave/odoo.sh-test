@@ -26,5 +26,10 @@
             <field name="value">40</field>
           </record>
 
+          <record id="object4" model="odouche.odouche">
+            <field name="name">Object 5</field>
+            <field name="value">50</field>
+          </record>
+
     </data>
 </odoo>
